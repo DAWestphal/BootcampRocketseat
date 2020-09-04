@@ -16,32 +16,22 @@ export const Title = styled.Text`
   margin: 64px 0 24px;
 `;
 
-export const ForgotPassword = styled.View`
-  margin-top: 24px;
-`;
-
-export const ForgotPasswordText = styled.Text`
-  color: #f4ede8;
-  font-size: 16px;
-  font-family: 'RobotoSlab-Regular';
-`;
-
-export const BackToSignInButton = styled.TouchableOpacity`
+export const BackToSignIn = styled.TouchableOpacity`
   position: absolute;
   left: 0;
-  right: 0;
   bottom: 0;
+  right: 0;
   background: #312e38;
   border-top-width: 1px;
   border-color: #232129;
-  padding: 16px 0 ${getBottomSpace()}px;
+  padding: 16px 0 ${16 + getBottomSpace()}px;
 
-  flex-direction: row;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: row;
 `;
 
-export const BackToSignInButtonText = styled.Text`
+export const BackToSignInText = styled.Text`
   color: #fff;
   font-size: 18px;
   font-family: 'RobotoSlab-Regular';

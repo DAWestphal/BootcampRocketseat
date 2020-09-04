@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "gobarber.app"
-               BlueprintName = "gobarber"
-               ReferencedContainer = "container:gobarber.xcodeproj">
+               BuildableName = "tnmgobarber.app"
+               BlueprintName = "tnmgobarber"
+               ReferencedContainer = "container:tnmgobarber.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "gobarberTests.xctest"
-               BlueprintName = "gobarberTests"
-               ReferencedContainer = "container:gobarber.xcodeproj">
+               BuildableName = "tnmgobarberTests.xctest"
+               BlueprintName = "tnmgobarberTests"
+               ReferencedContainer = "container:tnmgobarber.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "gobarber.app"
-            BlueprintName = "gobarber"
-            ReferencedContainer = "container:gobarber.xcodeproj">
+            BuildableName = "tnmgobarber.app"
+            BlueprintName = "tnmgobarber"
+            ReferencedContainer = "container:tnmgobarber.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "gobarber.app"
-            BlueprintName = "gobarber"
-            ReferencedContainer = "container:gobarber.xcodeproj">
+            BuildableName = "tnmgobarber.app"
+            BlueprintName = "tnmgobarber"
+            ReferencedContainer = "container:tnmgobarber.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
