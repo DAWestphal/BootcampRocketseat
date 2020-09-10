@@ -19,11 +19,11 @@ const SignUp: React.FC = () => {
     try {
       formRef.current?.setErrors({});
       const schema = Yup.object().shape({
-        name: Yup.string().required('nome obrigatório'),
+        name: Yup.string().required('Nome obrigatório'),
         email: Yup.string()
-          .required('Email Obrigatório')
+          .required('E-mail Obrigatório')
           .email('Digite um email válido'),
-        password: Yup.string().min(6, 'mínimo de seis dígitos'),
+        password: Yup.string().min(6, 'Mínimo 6 dígitos'),
       });
 
       await schema.validate(data, { abortEarly: false });
